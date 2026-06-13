@@ -1,16 +1,67 @@
-# React + Vite
+# AURA - Modern Fashion E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AURA is a premium, modern, and highly interactive fashion e-commerce web application. Designed with a sleek aesthetic, smooth animations, and high performance in mind.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Modern UI/UX**: Premium high-fashion aesthetic with a dark mode experience.
+- **Smooth Animations**: Integrated with `framer-motion` for page transitions and scroll-based entrance animations.
+- **Smooth Scrolling**: Fluid browsing experience powered by `lenis`.
+- **Responsive Design**: Fully responsive layout across mobile, tablet, and desktop viewports, using Tailwind CSS.
+- **E-Commerce Functionality**: Product details, shopping cart management, wishlist, and filtering options.
+- **Interactive Elements**: Custom cursor and magnetic buttons for enhanced user engagement.
+- **Admin & User Dashboards**: Complete product management and user data visualization interfaces.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://react.dev/) (v19) via [Vite](https://vitejs.dev/)
+- **Routing**: [React Router DOM](https://reactrouter.com/) (v7)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (v4)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Scrolling**: [Lenis](https://lenis.studiofreight.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Notifications**: [Sonner](https://sonner.emilkowal.ski/)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Manthan-Sinojiya/AURA.git
+   cd AURA
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173` (or the port specified by Vite).
+
+## 📂 Project Structure
+
+- `src/components/`: Reusable UI components (Navbar, Footer, ProductCard, CustomCursor, etc.)
+- `src/pages/`: Main application pages (Home, About, Menu, ProductDetails, Cart, AdminDashboard, etc.)
+- `src/context/`: React context providers (e.g., ShopContext)
+- `src/assets/`: Static assets like images and global CSS
+- `src/App.jsx`: Main application routing and setup
+
+## 📦 Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+This will generate a `dist/` directory containing the optimized static assets ready for deployment.
